@@ -1,5 +1,5 @@
 function findMatching(list, name) {
-  return list.filter(driver => driver.toLowerCase() === name.toLowerCase())
+  return list.filter(driver => driver.toLowerCase() === name.toLowerCase());
 }
 
 function fuzzyMatch(list, name) {
@@ -7,6 +7,6 @@ function fuzzyMatch(list, name) {
 }
 
 function matchName(list, name) {
- return list.filter(driver => driver.name === name) 
+ return list.filter(driver => driver.name === name);
 }
   
