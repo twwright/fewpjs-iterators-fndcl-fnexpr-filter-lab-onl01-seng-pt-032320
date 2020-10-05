@@ -3,7 +3,7 @@ function findMatching(list, name) {
 }
 
 function fuzzyMatch(list, name) {
-  return list.filter(driver => driver.toLowerCase().indexOf(name.toLowerCase()) === 0;
+  return list.filter(driver => driver.toLowerCase().indexOf(name.toLowerCase()) === 0);
 }
 
 function matchName(list, name) {
